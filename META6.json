@@ -1,0 +1,21 @@
+{
+  "name": "Geo::Names",
+  "description": "Provides interfaces to location data from geonames.org (latitude and longitude by location name, for example)",
+  "version": "0.1",
+  "perl": "6.*",
+  "authors": [
+    "ab5tract"
+  ],
+  "auth": "ab5tract",
+  "depends": [
+    "DB::SQLite"
+  ],
+  "build-depends": [],
+  "test-depends": [],
+  "provides": {
+    "Geo::Names": "lib/Geo/Names.pm6"
+  },
+  "resources": [],
+  "license": "Artistic License Version 2",
+  "source-url": "https://gitub.com/ab5tract/raku-Geo-Names"
+}
